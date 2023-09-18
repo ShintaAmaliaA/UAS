@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>JokiInKamu||Mulai dari 50k</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    // Fungsi untuk memeriksa login
+    function checkLogin() {
+      // Simulasi kondisi login (ganti dengan kondisi login sesungguhnya)
+      var isLoggedIn = false;
+      if (!isLoggedIn) {
+      // Jika tidak login, tampilkan pesan atau redirect ke halaman login
+      alert("Anda harus login untuk membuat pesanan.");
+      // Misalnya redirect ke halaman login:
+      // window.location.href = "login.php";
+      return false; // Menghentikan tindakan pembuatan pesanan
+        }
+
+        return true; // Melanjutkan tindakan pembuatan pesanan
+      }
+    // Mengaitkan fungsi checkLogin pada saat mengklik tombol "BUAT PESANAN"
+    $(document).ready(function() {
+      $(".btn.btn-success.stretched-link").click(function(e) {
+        e.preventDefault(); // Mencegah aksi default tombol link
+        checkLogin(); // Memeriksa login sebelum membuat pesanan
+      });
+    });
+    </script>
+</head>
+<body>
+  <nav class="navbar navbar-fixed-top" style="background-color: #677a56;">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" style="color: #66CDAA;">Joki<span style="color: black;">IN </span>Kamu</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">HOME</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">TUGAS<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="tugasSMP.html">SMP</a></li>
+              <li><a href="tugasSMA.html">SMA</a></li>
+              <li><a href="tugasKULIAH.html">KULIAH</a></li>
+              <li><a href="tugasMAKALAH.html">MAKALAH/JURNAL/SKRIPSI</a></li>
+            </ul>
+          </li>
+          <li class="active"><a href="caraOrder.html">CARA ORDER</a></li>
+          <li class="active"><a href="contact.html">CONTACT</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<section class="tugasSMA">
+<div class="container">
+  <div class="row">
+    <h3 class="text-center">MAKALAH</h3>
+    <br>
+    <br>
+    <div class="col-sm-3">
+      <div class="card-body">
+        <img class="card-img-top" src="img/sainsdata.png" alt="Card image" style="width:50%">
+        <h4 class="card-title">Ilmu Komputer</h4>
+        <p class="card-text">Makalah ilmu komputer adalah tulisan akademik yang membahas topik dalam bidang ini, melalui penelitian, informasi, dan analisis. Tujuannya adalah meningkatkan pemahaman dan kontribusi dalam perkembangan teknologi.</p>
+        <a href="buatpesananmakalahlap.html" class="btn btn-success stretched-link">BUAT PESANAN</a>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card-body">
+        <img class="card-img-top" src="img/kewargangaraan.png" alt="Card image" style="width:50%">
+        <h4 class="card-title">Sosial dan Ilmu Politik</h4>
+        <p class="card-text">Makalah sosial dan ilmu politik membahas topik-topik masyarakat dan politik. Melalui analisis dan penelitian, makalah ini menggali isu-isu sosial dan politik untuk memberikan wawasan baru dan kontribusi pada pemahaman dan perubahan sosial-politik.</p>
+        <a href="buatpesananmakalahlap.html" class="btn btn-success stretched-link">BUAT PESANAN</a>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card-body">
+        <img class="card-img-top" src="img/mtk.png" alt="Card image" style="width:50%">
+        <h4 class="card-title">Ekonomi dan Pembangunan</h4>
+        <p class="card-text">Makalah ekonomi dan pembangunan menganalisis hubungan antara ekonomi dan pembangunan, dengan fokus pada faktor-faktor pertumbuhan, pembangunan sosial, dan kebijakan untuk pertumbuhan ekonomi yang inklusif dan berkelanjutan.</p>
+        <a href="buatpesananmakalahlap.html" class="btn btn-success stretched-link">BUAT PESANAN</a>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card-body">
+        <img class="card-img-top" src="img/hukum.png" alt="Card image" style="width:50%">
+        <h4 class="card-title">Hukum</h4>
+        <p class="card-text">Makalah hukum membahas isu-isu hukum dan sistem peradilan melalui analisis peraturan, studi kasus, dan argumen hukum. Tujuannya adalah memberikan pemahaman mendalam dan rekomendasi kebijakan hukum yang relevan.</p>
+        <a href="buatpesananmakalahlap.html" class="btn btn-success stretched-link">BUAT PESANAN</a>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <h3 class="text-center">JURNAL</h3>
+    <br>
+    <br>
+    <div class="col-sm-3">
+      <div class="card-body">
+        <img class="card-img-top" src="img/penmat.png" alt="Card image" style="width:50%">
+        <h4 class="card-title">Pendidikan Matematika</h4>
+        <p class="card-text">Jurnal pendidikan matematika berfokus pada pengajaran dan pembelajaran matematika. Jurnal ini mempublikasikan penelitian, teori, dan praktik dalam pendidikan matematika, termasuk metode pengajaran dan strategi pembelajaran.</p>
+        <a href="buatpesananmakalahlap.html" class="btn btn-success stretched-link">BUAT PESANAN</a>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card-body">
+        <img class="card-img-top" src="img/sainsdata.png" alt="Card image" style="width:50%">
+        <h4 class="card-title">Ilmu Komputer</h4>
+        <p class="card-text">Jurnal ilmu komputer mempublikasikan penelitian dan aplikasi di bidang ilmu komputer, termasuk algoritma, pemrograman, kecerdasan buatan, jaringan komputer, dan teknologi informasi, untuk memajukan pengetahuan dan inovasi.</p>
+        <a href="buatpesananmakalahlap.html" class="btn btn-success stretched-link">BUAT PESANAN</a>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card-body">
+        <img class="card-img-top" src="img/sastra indonesia.png" alt="Card image" style="width:50%">
+        <h4 class="card-title">Sastra Indonesia</h4>
+        <p class="card-text">Jurnal sastra Indonesia memfokuskan pada penelitian dan analisis karya sastra dalam konteks budaya Indonesia. Tujuannya adalah memperkaya pemahaman tentang sastra Indonesia dan mendukung perkembangan kajian sastra di Indonesia.</p>
+        <a href="buatpesananmakalahlap.html" class="btn btn-success stretched-link">BUAT PESANAN</a>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card-body">
+        <img class="card-img-top" src="img/manajemen.png" alt="Card image" style="width:50%">
+        <h4 class="card-title">Manajemen</h4>
+        <p class="card-text">Jurnal manajemen membahas teori, penelitian, dan praktik dalam bidang manajemen. Tujuannya adalah memajukan pengetahuan dan memberikan panduan praktis di bidang manajemen. Tujuannya adalah memajukan pengetahuan</p>
+        <a href="buatpesananmakalahlap.html" class="btn btn-success stretched-link">BUAT PESANAN</a>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <h3 class="text-center">PROPOSAL/LAPORAN</h3>
+    <br>
+    <br>
+    <div class="col-sm-4">
+      <div class="card-body">
+        <img class="card-img-top" src="img/skripsi.png" alt="Card image" style="width:50%">
+        <h4 class="card-title">Laporan </h4>
+        <p class="card-text">Laporanberisi hasil penelitian mahasiswa untuk memperoleh gelar sarjana. Meliputi pendahuluan, metode, hasil, dan kesimpulan, laporan ini memberikan temuan penelitian dan kontribusi dalam bidang studi yang dipilih.</p>
+        <a href="buatpesananmakalahlap.html" class="btn btn-success stretched-link">BUAT PESANAN</a>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card-body">
+        <img class="card-img-top" src="img/uas.png" alt="Card image" style="width:50%">
+        <h4 class="card-title">Laporan Akhir Semester</h4>
+        <p class="card-text">Laporan UAS adalah evaluasi akhir semester dalam mata kuliah. Isinya mencakup materi, pertanyaan/tugas, dan penilaian mahasiswa. Tujuannya adalah mengukur pencapaian dan menentukan nilai akhir.</p>
+        <a href="buatpesananmakalahlap.html" class="btn btn-success stretched-link">BUAT PESANAN</a>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card-body">
+        <img class="card-img-top" src="img/uts.png" alt="Card image" style="width:50%">
+        <h4 class="card-title">Laporan Tengah Semester</h4>
+        <p class="card-text">Laporan UTS adalah evaluasi tengah semester yang mencakup materi, pertanyaan/tugas, dan penilaian mahasiswa. Tujuannya adalah mengukur pemahaman dan kemampuan mahasiswa pada paruh pertama perkuliahan.</p>
+        <a href="buatpesananmakalahlap.html" class="btn btn-success stretched-link">BUAT PESANAN</a>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+</body>
+</html>
